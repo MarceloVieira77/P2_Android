@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	
+    <TextView 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/lblnome"
+        />
+    
+    <EditText 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:id="@+main/txtnome"
+        	android:inputType="text"
+        />
+    
+    <TextView 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/lbltel"
+        />
+    
+    <EditText 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:id="@+main/txttel"
+        	android:inputType="numberSigned"
+        />
+    
+    <TextView 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/lblmsg"
+        />
+    
+    <EditText 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:id="@+main/txtmsg"
+        	android:inputType="textImeMultiLine"
+        />
+    
+    <Button 
+        	android:id="@+main/btn1"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/lblbtn"
+        />
+    
+    <Button 
+        	android:id="@+main/btn2"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/lblbtn2"
+        />
+    
+    
+</LinearLayout>

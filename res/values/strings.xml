@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Tela1!</string>
+    <string name="app_name">Aula25java</string>
+    
+    <string name="lbltel">Informe o telefone: </string>
+    <string name="lblnome">Informe o nome: </string>
+    <string name="lblmsg">Informe a mensagem: </string>
+    <string name="lblbtn">Enviar Mensagem</string>
+    <string name="lblbtn2">Gerar TXT</string>
+    <string name="lblbtn3">Voltar</string>
+
+</resources>
